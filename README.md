@@ -18,18 +18,18 @@ One or two liner about the product here.
 The "Create App Record" step creates a record in the APPLICATION_NAME and such and such. 
 
 ### Settings
+Values for the settings tab. A screen shot is also acceptable. If you have a custom icon, please upload it into the `/media` folder and reference with `<kbd> <img src="/media/hat.png"></kbd>`. See below for the format of a table in markdown. 
 
-**Name**: Create a Hat
+| Field | Value |
+| ----- | ----- |
+| Name | Create a Hat |
+| Description | Sends a create a hat request to the hat factory.  |
+| Icon | <kbd> <img src="/media/hat.png"></kbd> |
+| Include Endpoint | Yes |
+| Endpoint Type | Basic Auth |
+| Endpoint Label | Hat Factory |
 
-**Description**: Sends a create a hat request to the hat factory. 
 
-**Icon**: <kbd> <img src="/media/hat.png"></kbd>
-
-**Include Endpoint**: Yes
-
-**Endpoint Type**: Basic Auth
-
-**Endpoint Label**: Hat Factory
 
 ### Inputs
 Inputs should be in the form of tables. The syntax looks like this in the markdown. The "content cells" do not have to line up, just make sure you have the right number of columns in each row. Required inputs must be at the top and please for the love of Pete, add some helpful text as to what the input is for or what it does. If the step only allows certain values, make sure to list them!
