@@ -14,6 +14,8 @@ Template for contributing Flow Designer steps to the [Flow Steps](https://github
 # Application Name Goes Here
 One or two liner about the product here. 
 
+Each step for this "application" can be added below. I recommend exporting a comm plan with the steps so people can get to using them quickly.
+
 ## Action Name 1
 The "Create App Record" step creates a record in the APPLICATION_NAME and such and such. 
 
