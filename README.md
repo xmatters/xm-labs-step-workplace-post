@@ -10,14 +10,27 @@ Template for contributing Flow Designer steps to the [Flow Steps](https://github
 
 ---------
 
+# Files
+
+* [logo.png](/media/hat.png) - Logo for the Hat Factory
+* [otherfile.file](/otherfile.file) - Some other file that does something useful.
 
 # Application Name Goes Here
 One or two liner about the product here. 
 
 Each step for this "application" can be added below. I recommend exporting a comm plan with the steps so people can get to using them quickly.
 
+# `APPLICATION_NAME` setup
+Add details here about how to generate an auth token or to create a user. 
+
+## Get Token
+1. Login to `APPLICATION_NAME`. 
+2. Draw the rest of the Owl. 
+
+# Flow Designer Steps
+
 ## Action Name 1
-The "Create App Record" step creates a record in the APPLICATION_NAME and such and such. 
+The "Create App Record" step creates a record in the `APPLICATION_NAME` and such and such. 
 
 ### Settings
 Values for the settings tab. A screen shot is also acceptable. If you have a custom icon, please upload it into the `/media` folder and reference with `<kbd> <img src="/media/hat.png"></kbd>`. See below for the format of a table in markdown. 
@@ -84,7 +97,7 @@ var resp = req.write( hatPayload );
 
 
 ## Action Name 2
-The "Update App Record" step creates a record in the APPLICATION_NAME and such and such. 
+The "Update App Record" step creates a record in the `APPLICATION_NAME` and such and such. 
 
 ### Settings
 
