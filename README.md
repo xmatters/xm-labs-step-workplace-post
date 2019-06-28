@@ -86,12 +86,14 @@ The "Update App Record" step creates a record in the APPLICATION_NAME and such a
 
 ### Settings
 
-**Name**: Update a Hat
-**Description**: Sends an update a hat request to the hat factory. 
-**Icon**: <kbd> <img src="/media/hat.png"></kbd>
-**Include Endpoint**: Yes
-**Endpoint Type**: Basic Auth
-**Endpoint Label**: Hat Factory
+| Field | Value |
+| ----- | ----- |
+| Name | Update a Hat |
+| Description | Sends an update a hat request to the hat factory.  |
+| Icon | <kbd> <img src="/media/hat.png"></kbd> |
+| Include Endpoint | Yes |
+| Endpoint Type | Basic Auth |
+| Endpoint Label | Hat Factory |
 
 ### Inputs
 
