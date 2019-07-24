@@ -14,8 +14,9 @@ This is repo makes part fo the [xMatters Labs Flow Steps](https://github.com/xma
 
 # Files
 
-* [logo.png](/media/hat.png) - Logo for the Hat Factory
-* [otherfile.file](/otherfile.file) - Some other file that does something useful.
+* [x_logo.png](/media/x_logo.png) - An xMatters logo in green that you can use to configure the bot in Workplace.
+* [xmatters blue.png](/media/xmatters%20blue.png) - An xMatters logo in blue if you prefer that for the bot.
+* [workplace.jpg](media/workplace.jpg) - Logo for the Workplace step in xMatters Flow Designer
 
 # Workplace
 [Facebook's Workplace](https://www.workplace.com/) brings all the neat stuff that we love Facebook for to, well... the workplace.
