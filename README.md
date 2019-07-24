@@ -138,6 +138,6 @@ Then you can drag your shiny new custom step into the canvas and configure it.
 
 - You'll need that **Access Token** [you just got from creating your bot](#create-a-bot).  You may consider putting the token in a Com Plan constant and then put the constant in this input instead.  This makes it a little easier to change later if needed especially if you end up using this in several steps.
 
-- You can use as much [Workplace Markdown](https://www.facebook.com/help/work/541260132750354) as you like to format your message.  You can also put hit return to put a new line in and this will be delivered as a new line to Workplace to help you create useful, easy on the eye posts.
+- You can use as much [Workplace Markdown](https://www.facebook.com/help/work/541260132750354) as you like to format your **Message**.  You can also put hit return to put a new line in and this will be delivered as a new line to Workplace to help you create useful, easy on the eye posts.
 
 - You must specify either a **Message** or a **Link**, or both.
