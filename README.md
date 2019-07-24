@@ -19,17 +19,19 @@ This is repo makes part fo the [xMatters Labs Flow Steps](https://github.com/xma
 * [workplace.jpg](media/workplace.jpg) - Logo for the Workplace step in xMatters Flow Designer
 
 # Workplace
-[Facebook's Workplace](https://www.workplace.com/) brings all the neat stuff that we love Facebook for to, well... the workplace.
+[Facebook's Workplace](https://www.workplace.com/) brings all the neat stuff that we love Facebook to, well... the workplace.
 
-I've seen a lot of customers take up this product recently.  Usually one of the first things they want to do is create a group in Workplace for Major Incidents - to broadcast any current issues and demonstrate that the resolution is in hand.  Often customers then extend this to post into the group of particular teams any communications relating to that team, a callout, escalation or an FYI for an interesting service.
+I've seen a lot of xMatters customers take up this product recently.  Usually one of the first things they want to do is create a group in Workplace for Major Incidents so they can broadcast any current issues and demonstrate that the resolution is in hand.  Often customers then extend this to post information relevant to a particular team straight into their own group, like a callout, escalation or an FYI for an interesting service.
 
 All this of course requires a way to automatically post to a Workplace group from xMatters so you don't have to take time out of your incident to copy and paste the details over.  Once you have this custom step in your communication plan you'll be able to do just that.
 
-It may be that this step is the ultimate aim of your flow, or it may be that his is just one of the many things you want xMatters to do as part of your process, either way this is a really easy step to setup and a quick win.  Don't be put off by the idea of a custom step either.  This is very often someone's first custom step and it's not uncommon to hear them say "*that was easy*" a few minutes after they open up Flow Designer.
+It may be that this step is the ultimate aim of your flow, or it may be that his is just one of the many things you want xMatters to do as part of your process.  Either way this is a really easy step to setup and a quick win.  Don't be put off by the idea of a custom step either.  This is very often someone's first custom step and it's not uncommon to hear "*that was easy*" just a few minutes after they open up Flow Designer.
 
 
 # Create the Custom Step
-Here is the configuration and script you will require to create the Workplace custom step. On the **Developer** tab in xMatters, click **Edit** next to the communication plan you need this step in and then click **Flows** in the menu.  Open the Flow Designer for any of the forms/flows. On the **CUSTOM** tab in right had toolbar you will find the **Create a custom step** button, click it. Fill in the details as shown in the following sections.
+Here is the configuration and script you will require to create the Workplace custom step.
+
+On the **Developer** tab in xMatters, click **Edit** next to the communication plan you need this step in and then click **Flows** in the menu.  Open the Flow Designer for any of the forms/flows. On the **CUSTOM** tab in right had toolbar you will find the **Create a custom step** button, click it. Fill in the details as shown in the following sections.
 
 Once you have the custom step created you'll be able to use it over and over again in any flow in this com plan.
 
@@ -108,7 +110,7 @@ Now we're going to do a little work in Workplace.  xMatters needs a Workplace 'B
 
 <img width=90% src="/media/Workplace Bot Setup.gif" />
 
-1. Open your browser and head over to Workplace, find and open the group you want xMatters to post into.
+1. Point a new browser window to Workplace.  Find and open the group you want xMatters to post into.
 1. On the **More** menu for the group you'll find **Integrations**, click it.
 
   Now you're looking at the Integrations configuration page for this particular group, anything you do here will only effect this group.
@@ -119,10 +121,10 @@ Now we're going to do a little work in Workplace.  xMatters needs a Workplace 'B
   You can use one of the xMatters logos in the files list above for the image if you like.  Remember that when xMatters posts to your group it will post with this image and name so it's good if this represents the process you are creating.
 
 1. Click **Create** and wait a moment while Workplace creates your bot and token.
-1. You'll be presented a new dialog with 3 items on it, the last of these is the Access Token, click **Copy Access Token** and paste it somewhere safe, you'll need it in just a moment.
+1. You'll be presented a new dialog with 3 items on it, the last of these is the **Access Token**, click **Copy Access Token** and paste it somewhere safe.  You'll need this in just a moment.
 1. Finally read the warning, check the box named **I understand** and click the **Done** button.
 
-That's it, you've created a bot, congratulations!  You can come back into this Integrations section of your group at any time to see the bot, delete it or get a new Access Token.
+That's it, you've created a bot.  Congratulations!  You can come back into this Integrations section of your group at any time to see the bot, delete it or get a new Access Token.
 
 
 
