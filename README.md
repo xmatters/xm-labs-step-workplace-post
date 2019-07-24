@@ -133,11 +133,11 @@ Right, back in xMatters create a flow if you haven't already.  There's lots of h
 <img width=90% src="/media/Workplace Step Config in Flow Designer.gif" />
 
 Then you can drag your shiny new custom step into the canvas and configure it.
-- This is where you'll need that **Access Token** [you just got](#create-a-bot).
-(You may consider putting the token in a Com Plan constant and then put the constant in this box to make it easier to change later if needed)
-
-- You can use as much [Workplace Markdown](https://www.facebook.com/help/work/541260132750354) as you like to format your message.
-
-- You must specify a **Message**, a **Link** or both.
 
 - If you've already created the **Workplace Graph API** as an endpoint select it on the **ENDPOINT** tab.  If not then you can create it there with the **Base URL** as `https://graph.workplace.com`
+
+- You'll need that **Access Token** [you just got from creating your bot](#create-a-bot).  You may consider putting the token in a Com Plan constant and then put the constant in this input instead.  This makes it a little easier to change later if needed especially if you end up using this in several steps.
+
+- You can use as much [Workplace Markdown](https://www.facebook.com/help/work/541260132750354) as you like to format your message.  You can also put hit return to put a new line in and this will be delivered as a new line to Workplace to help you create useful, easy on the eye posts.
+
+- You must specify either a **Message** or a **Link**, or both.
