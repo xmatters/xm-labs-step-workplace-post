@@ -1,5 +1,5 @@
 # Post to Facebook Workplace step for xMatters
-This is a custom step for xMatters Flow Designer that can post to a group in Facebook's Workplace using a preconfigured Bot.  Once you've created this custom step in a communication plan in xMatters you will be able to post to a Workplace group feed from any flow in that communication plan.
+This is a custom step for xMatters Flow Designer that can post to a group in Facebook's Workplace using a preconfigured Bot.  Once you've created this custom step in a workflow in xMatters you will be able to post to a Workplace group feed from any flow in that workflow.
 
 This is repo makes part fo the [xMatters Labs Flow Steps](https://github.com/xmatters/xMatters-Labs-Flow-Steps) parent repo.
 
@@ -7,7 +7,9 @@ This is repo makes part fo the [xMatters Labs Flow Steps](https://github.com/xma
 ---------
 
 <kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
 </kbd>
 
 ---------
@@ -23,7 +25,7 @@ This is repo makes part fo the [xMatters Labs Flow Steps](https://github.com/xma
 
 I've seen a lot of xMatters customers take up this product recently.  Usually one of the first things they want to do is create a group in Workplace for Major Incidents so they can broadcast any current issues and demonstrate that the resolution is in hand.  Often customers then extend this to post information relevant to a particular team straight into their own group, like a callout, escalation or an FYI for an interesting service.
 
-All this of course requires a way to automatically post to a Workplace group from xMatters so you don't have to take time out of your incident to copy and paste the details over.  Once you have this custom step in your communication plan you'll be able to do just that.
+All this of course requires a way to automatically post to a Workplace group from xMatters so you don't have to take time out of your incident to copy and paste the details over.  Once you have this custom step in your workflow you'll be able to do just that.
 
 It may be that this step is the ultimate aim of your flow, or it may be that his is just one of the many things you want xMatters to do as part of your process.  Either way this is a really easy step to setup and a quick win.  Don't be put off by the idea of a custom step either.  This is very often someone's first custom step and it's not uncommon to hear "*that was easy*" just a few minutes after they open up Flow Designer.
 
@@ -31,7 +33,7 @@ It may be that this step is the ultimate aim of your flow, or it may be that his
 # Create the Custom Step
 Here is the configuration and script you will require to create the Workplace custom step.
 
-On the **Developer** tab in xMatters, click **Edit** next to the communication plan you need this step in and then click **Flows** in the menu.  Open the Flow Designer for any of the forms/flows. On the **CUSTOM** tab in right had toolbar you will find the **Create a custom step** button, click it. Fill in the details as shown in the following sections.
+On the **Workflows** page in xMatters, click **Edit** next to the workflow you need this step in and then click **Flows** in the menu.  Open the Flow Designer for any of the forms/flows. On the **CUSTOM** tab in right had toolbar you will find the **Create a custom step** button, click it. Fill in the details as shown in the following sections.
 
 Once you have the custom step created you'll be able to use it over and over again in any flow in this com plan.
 
